@@ -1,8 +1,10 @@
-<div>
-<h1>Pergunte ao Coach</h1>
-
-<form action="answer">
-  <input type="text" name="question" value="<%= params[:question] %>">
-  <input type="submit" value="Ask!">
-</form>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://source.unsplash.com/random);">
+  <div class="container">
+    <h1>Stupid Coaching</h1>
+    <p>Ask your coach anything</p>
+    <form action="answer">
+      <input type="text" name="question" value="<%= params[:question] %>">
+      <input type="submit" value="Ask!" class="btn btn-flat">
+    </form>
+  </div>
 </div>
